@@ -1,0 +1,91 @@
+Task
+Ordinare una pizza
+Tu non hai fame?!
+Dopo una lunga giornata passata al pc, ho proprio voglia di concedermi una bella pizza succulenta! Sì, ma quale? 
+
+Fammi dare un occhio al listino… 
+
+Va beh, è inutile, tanto alla fine ordino sempre la stessa: una classica prosciutto e funghi. 
+
+La pizza arriva ancora fumante, chissà se riuscirò a mangiarla tutta!
+Di sicuro se ne avanzo una fetta devo ricordarmi di metterla in frigo, non come l’ultima volta! 
+
+
+Esercizio
+
+
+Prendo il listino della mia pizzeria di fiducia
+
+Apro il listino dalla prima pagina
+
+	Leggo le pizze sul listino dall’alto al basso
+	
+	PER OGNI pizza sul listino
+		leggo gli ingredienti
+		SE ci sono i peperoni
+			scarto la pizza dalla scelta
+		ALTRIMENTI
+			la tengo in considerazione
+		
+	PER OGNI pizza in considerazione
+		SE costa > 10 €
+			sono povero e non la compro
+		ALTRIMENTI SE mio desiderio per pizza X > prosciutto e funghi
+			Decido di ordinare pizza X
+			ALTRIMENTI 
+				Decido di ordinare prosciutto e funghi
+
+SE sono NOT stanco
+	vado a prendermela
+ALTRIMENTI SE pizzeria ha sito/app
+	ordino la pizza online
+	ALTRIMENTI SE ho voglia di contatto umano
+		chiamo io la pizzeria
+		ALTRIMENTI ci mando mia madre
+
+
+	Chiamo la pizzeria
+		Prendo il telefono
+		Cerco il numero sul listino
+		Digito il numero trovato sul telefono
+		Ordino la pizza selezionata al telefono
+		FINCHE dall’altra parta non hanno capito la pizza che voglio
+			Ripeto nome della pizza che voglio
+
+	Arriva la pizza
+	Controllo la pizza
+		SE la pizza è NOT quella selezionata
+			mando a quel paese
+			ALTRIMENTI SE la pizza è fumante
+				pago e lascio la mancia
+			ALTRIMENTI pago ma non lascio la mancia
+	
+	Entro in casa
+	Mi siedo
+	Apro il cartone della pizza
+	SE la pizza NOT tagliata
+		prendo coltello
+		taglio pizza in 8 fette
+	ALTRIMENTI
+		inizio a mangiare
+
+	Controllo fame
+	FINCHE ho ancora fame
+		mangio
+
+	Prendo pizza dal cartone
+	Metto in scatola
+	Apro frigo
+	Metto scatola in frigo
+	Chiudo frigo
+
+
+
+	
+		
+
+Prezzo / fame / confronto
+
+
+
+
